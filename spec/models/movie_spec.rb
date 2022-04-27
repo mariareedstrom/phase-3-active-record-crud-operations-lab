@@ -87,7 +87,7 @@ describe Movie do
 
     describe '.find_movie_with_id' do
       it 'returns the movie with the corresponding id' do
-        expect(Movie.find_movie_with_id(1).title).to eq("Movie_0")
+         expect(Movie.find_movie_with_id(1).title).to eq("Movie_0")
       end
     end
 
